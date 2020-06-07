@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="Personal Details"
+            android:layout_marginTop="10dp"
+            android:textColor="#0000ff"
+            android:textSize="30dp"
+            android:id="@+id/heading"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="Name: "
+            android:textSize="20dp"
+            android:id="@+id/name"
+            android:textColor="#000"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/nametext"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="20dp"
+            android:text="Email: "
+            android:textSize="20dp"
+            android:id="@+id/email"
+            android:textColor="#000"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/emailtext"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="20dp"
+            android:text="Phone No: "
+            android:textSize="20dp"
+            android:id="@+id/phone"
+            android:textColor="#000"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/phonetext"
+    />
+
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/phone"
+            android:layout_marginTop="70dp"
+            android:background="#0099FF"
+            android:text="submit"
+            android:textColor="#FFFFFF"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:id="@+id/nametext1"
+            android:textColor="#00ff00"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nametext1"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:id="@+id/emailtext1"
+            android:textColor="#00ff00"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailtext1"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:id="@+id/phonetext1"
+            android:textColor="#ff0000"
+    />
+
+</RelativeLayout>
